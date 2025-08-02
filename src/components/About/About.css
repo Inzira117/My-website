@@ -1,0 +1,8 @@
+.about {
+  max-width: 700px;
+}
+
+.about__content {
+  font-family: "LibertinusSerif-Regular";
+  font-weight: 800;
+}

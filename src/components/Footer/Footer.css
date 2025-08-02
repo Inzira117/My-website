@@ -1,0 +1,13 @@
+.footer {
+  padding: 40px;
+  border-top: 1px solid gray;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  font-family: "LibertinusSerif-Regular";
+}

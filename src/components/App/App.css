@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "LibertinusSerif-Bold";
+  src: url("../../vendor/Fonts/LibertinusSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: "LibertinusSerif-Regular";
+  src: url("../../vendor/Fonts/LibertinusSerif-Regular.ttf");
+}
+
+#root {
+  max-width: 1440px;
+}
+
+.page {
+  background: linear-gradient(135deg, #ffd6e8, #e6ccff);
+  height: 100vh;
+  margin: 0;
+}
