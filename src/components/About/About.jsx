@@ -1,4 +1,5 @@
 import "./About.css";
+import Avatar from "../../assets/Avatar.png";
 
 export default function About() {
   return (
@@ -11,6 +12,7 @@ export default function About() {
         with creativity to craft user-focused digital experiences. Every project
         is a new opportunity to learn, adapt, and grow.
       </div>
+      <img src={Avatar} alt="Avatar" className="about__image" />
     </section>
   );
 }

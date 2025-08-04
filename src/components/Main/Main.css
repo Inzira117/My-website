@@ -1,3 +1,13 @@
 .main {
   padding: 20px 40px;
 }
+
+.main__title {
+  font-family: "LibertinusSerif-Bold";
+  font-size: x-large;
+}
+
+.main__position {
+  font-family: "LibertinusSerif-Regular";
+  font-size: medium;
+}
