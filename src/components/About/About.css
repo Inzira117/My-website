@@ -1,19 +1,18 @@
 .about {
-  display: flex;
-  justify-content: space-between;
+  padding: auto;
 }
 
 .about__content {
-  max-width: 600px;
-  margin: auto;
-  /* margin-left: 40px; */
-  font-family: "LibertinusSerif-Italic";
-  font-weight: 1000;
-  font-size: large;
+  max-width: 800px;
+  margin-top: 150px;
 }
 
-.about__image {
-  max-width: 400px;
-  max-height: 400px;
-  margin-right: 40px;
+.about__title {
+  font-family: "LibertinusSerif-Regular";
+  font-size: 30px;
+}
+
+.about__text {
+  font-family: "LibertinusSerif-Italic";
+  font-size: 20px;
 }

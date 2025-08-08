@@ -1,13 +1,31 @@
 .main {
   padding: 20px 40px;
+  margin: 40px 0px;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__text {
+  /* top: 50px; */
 }
 
 .main__title {
   font-family: "LibertinusSerif-Bold";
-  font-size: x-large;
+  font-size: 40px;
+  color: purple;
 }
 
 .main__position {
   font-family: "LibertinusSerif-Regular";
-  font-size: medium;
+  font-size: 40px;
+  color: purple;
+}
+
+.main__image {
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 40px;
 }
