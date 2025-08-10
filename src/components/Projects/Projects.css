@@ -1,0 +1,14 @@
+.projects {
+  margin-top: 100px;
+}
+
+.projects__title {
+  font-family: "LibertinusSerif-Regular";
+  font-size: 30px;
+}
+
+.projects__cards {
+  list-style: none;
+  display: grid;
+  grid-template-rows: auto;
+}

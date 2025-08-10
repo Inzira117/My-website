@@ -2,8 +2,8 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <div className="skills">
-      Skills
+    <section className="skills">
+      <h2 className="skills__title">Skills</h2>
       <ul className="skills__content">
         <li>
           Frontend: HTML, CSS, JavaScript, TypeScript, React, Tailwind, Figma,
@@ -13,6 +13,6 @@ export default function Skills() {
         <li> Tools: Git/GitHub, Postman, REST APIs, Jest</li>
         <li>Other: Agile methodologies, Data Structures & Algorithms, OOP</li>
       </ul>
-    </div>
+    </section>
   );
 }
