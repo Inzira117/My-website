@@ -1,18 +1,34 @@
 .about {
-  padding: auto;
-}
-
-.about__content {
-  max-width: 800px;
   margin-top: 150px;
+  background-color: #e6ccff;
+  padding: 30px;
 }
 
 .about__title {
   font-family: "LibertinusSerif-Regular";
   font-size: 30px;
+  margin-left: 30px;
+}
+
+.about__question {
+  font-family: "LibertinusSerif-Regular";
+  font-size: 40px;
+  color: purple;
+  margin-left: 30px;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__img {
+  width: 400px;
+  height: 400px;
 }
 
 .about__text {
   font-family: "LibertinusSerif-Italic";
-  font-size: 20px;
+  font-size: 30px;
+  width: 700px;
 }
