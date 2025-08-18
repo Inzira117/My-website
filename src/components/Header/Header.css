@@ -5,12 +5,18 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: lavenderblush;
 }
 
 .header__logo {
   font-family: "LibertinusSerif-Bold";
   font-size: 40px;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
 .header__logo:hover {
@@ -21,6 +27,7 @@
 .header__nav {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -35,5 +42,20 @@
 
 .header__nav-link:hover {
   color: gray;
+  transform: scale(1.1);
+}
+
+.header__button {
+  width: 150px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: transparent;
+  font-family: "LibertinusSerif-Bold";
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: gray;
   transform: scale(1.1);
 }

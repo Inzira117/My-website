@@ -1,9 +1,12 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="header">
-      <div className="header__logo">Inzira A.</div>
+      <a href="/" className="header__logo">
+        Inzira A.
+      </a>
       <nav className="header__nav">
         <a href="#about" className="header__nav-link">
           About
@@ -14,9 +17,8 @@ export default function Header() {
         <a href="#projects" className="header__nav-link">
           Projects
         </a>
-        <a href="#contacts" className="header__nav-link">
-          Contacts
-        </a>
+
+        <button className="header__button">Contact</button>
       </nav>
     </header>
   );
