@@ -21,6 +21,9 @@
   background-color: linen;
   border-radius: 10px;
   border: 1px bisque solid;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card__img {
@@ -40,4 +43,9 @@
   padding: 15px;
   margin: 0;
   font-family: "LibertinusSerif-Regular";
+}
+
+.card__git {
+  margin-left: 15px;
+  margin-top: auto;
 }
