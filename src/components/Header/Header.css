@@ -18,20 +18,22 @@
   transform: scale(1.1);
 }
 
-.header__nav ul {
+.header__nav {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.header__nav li {
+.header__nav-link {
   cursor: pointer;
   font-family: "LibertinusSerif-Regular";
   font-weight: normal;
   font-size: 25px;
+  text-decoration: none;
+  color: black;
 }
 
-.header__nav li:hover {
+.header__nav-link:hover {
   color: gray;
   transform: scale(1.1);
 }

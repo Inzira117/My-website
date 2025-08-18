@@ -3,7 +3,7 @@ import Girl from "../../assets/Girl.png";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2 className="about__title">About me</h2>
       <h2 className="about__question">Why hire me for your next project?</h2>
       <div className="about__content">

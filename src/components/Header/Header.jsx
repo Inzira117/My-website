@@ -5,12 +5,18 @@ export default function Header() {
     <header className="header">
       <div className="header__logo">Inzira A.</div>
       <nav className="header__nav">
-        <ul>
-          <li className="header__about">About</li>
-          <li className="header__projects">Skills</li>
-          <li className="header__skills">Projects</li>
-          <li className="header__contact">Contact</li>
-        </ul>
+        <a href="#about" className="header__nav-link">
+          About
+        </a>
+        <a href="#skills" className="header__nav-link">
+          Skills
+        </a>
+        <a href="#projects" className="header__nav-link">
+          Projects
+        </a>
+        <a href="#contacts" className="header__nav-link">
+          Contacts
+        </a>
       </nav>
     </header>
   );
