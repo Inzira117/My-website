@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header() {
+export default function Header({ onContactClick }) {
   return (
     <header className="header">
       <a href="/" className="header__logo">
@@ -17,7 +17,9 @@ export default function Header() {
           Projects
         </a>
 
-        <button className="header__button">Contact</button>
+        <button className="header__button" onClick={onContactClick}>
+          Contact
+        </button>
       </nav>
     </header>
   );
