@@ -24,6 +24,18 @@
   transform: scale(1.1);
 }
 
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+}
+
 .header__nav {
   list-style: none;
   display: flex;
@@ -58,4 +70,24 @@
 .header__button:hover {
   background-color: gray;
   transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: #444;
+    padding: 1rem;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
 }

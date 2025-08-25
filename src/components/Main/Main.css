@@ -24,3 +24,44 @@
   max-width: 400px;
   max-height: 400px;
 }
+
+@media (max-width: 768px) {
+  .main {
+    padding: 20px 10px;
+    margin: 40px 0;
+  }
+
+  .main__content {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .main__title {
+    font-size: 45px;
+  }
+
+  .main__position {
+    font-size: 25px;
+  }
+
+  .main__image {
+    max-width: 300px;
+    border-radius: 20px;
+  }
+}
+
+/* ====== Desktop (>=1024px) ====== */
+@media (min-width: 1024px) {
+  .main__title {
+    font-size: 60px;
+  }
+
+  .main__position {
+    font-size: 40px;
+  }
+
+  .main__image {
+    max-width: 400px;
+  }
+}

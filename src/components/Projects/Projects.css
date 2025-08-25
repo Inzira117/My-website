@@ -24,13 +24,14 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow: hidden;
 }
 
 .card__img {
-  width: 300px;
+  width: 100%;
   height: 200px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  object-fit: cover;
+  display: block;
 }
 
 .card__title {
@@ -48,4 +49,25 @@
 .card__git {
   margin-left: 15px;
   margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    margin: 10px 0;
+  }
+
+  .projects__cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 288px;
+  }
+
+  .card-img {
+    height: 180px;
+  }
 }

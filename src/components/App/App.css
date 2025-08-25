@@ -21,3 +21,12 @@
   /* background: linear-gradient(135deg, #ffd6e8, #d1a6f9); */
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  #root {
+    max-width: 100%;
+  }
+  .page {
+    width: 100%;
+  }
+}
