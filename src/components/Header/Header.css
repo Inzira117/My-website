@@ -79,7 +79,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background: #444;
+    background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
   }
 
