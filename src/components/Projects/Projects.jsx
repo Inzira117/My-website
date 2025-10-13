@@ -14,7 +14,8 @@ export default function Projects() {
         <ProjectCard
           image={Nasa}
           title="Nasa"
-          description="This app lets users explore photos from active NASA’s Mars rovers like Perseverance and Curiosity."
+          description="NASA Mars Rover Gallery — React, Node.js, Express, NASA API
+Developed a full-stack application that displays Mars Rover photos from NASA’s public API. Built a backend with Express to fetch and serve data efficiently, implemented dynamic filtering by rover and date, and designed a responsive React frontend for seamless photo browsing and enhanced user experience."
           github="https://github.com/Inzira117/Nasa-project "
         />
         {/* <ProjectCard
