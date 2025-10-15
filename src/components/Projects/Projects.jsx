@@ -1,6 +1,5 @@
 import "./Projects.css";
 import Nasa from "../../assets/Nasa.png";
-import News from "../../assets/News.png";
 import Wtwr from "../../assets/Wtwr.png";
 import Spots from "../../assets/Spots.png";
 
@@ -18,12 +17,6 @@ export default function Projects() {
 Developed a full-stack application that displays Mars Rover photos from NASA’s public API. Built a backend with Express to fetch and serve data efficiently, implemented dynamic filtering by rover and date, and designed a responsive React frontend for seamless photo browsing and enhanced user experience."
           github="https://github.com/Inzira117/Nasa-project "
         />
-        {/* <ProjectCard
-          image={News}
-          title="News Explorer"
-          description="NewsExplorer App — React, CSS, Third-Party News API. Built a responsive news search application that lets users find articles by keyword, authenticate via login/registration, and save favorites. Implemented dynamic routing, conditional rendering, and mobile-optimized layouts for seamless user experience."
-          github="https://github.com/Inzira117/Final_Project_News"
-        /> */}
         <ProjectCard
           image={Wtwr}
           title="What to wear weather app"
