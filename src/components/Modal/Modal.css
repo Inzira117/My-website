@@ -48,3 +48,9 @@
     padding: 20px 40px;
   }
 }
+
+@media (max-width: 310px) {
+  .modal {
+    padding: 20px 10px;
+  }
+}
