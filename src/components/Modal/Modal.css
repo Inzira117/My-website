@@ -43,6 +43,12 @@
   font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
+.modal__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 @media (max-width: 768px) {
   .modal {
     padding: 20px 40px;

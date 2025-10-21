@@ -11,6 +11,19 @@ export default function Modal({ closeActiveModal }) {
         <h2 className="modal__title">Contact me</h2>
         <p className="modal__content">email: inzira1995@gmail.com</p>
         <p className="modal__content">phone: +1(323) 536 69018</p>
+        <div className="modal__links">
+          <a
+            className="modal__link"
+            href="https://www.linkedin.com/in/inzira-abdurafikova/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a className="modal__link" href="https://github.com/Inzira117">
+            GitHub
+          </a>
+        </div>
       </div>
     </div>
   );
